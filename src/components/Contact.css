@@ -1,0 +1,140 @@
+.contactName{
+    font-weight: bold;
+    margin-top: -90px;
+    position: absolute;
+    text-align: center;
+    font-size: 35px;
+    margin-left: 700px;
+}
+
+.logo{
+    font-size: 70px;
+    font-weight: bold;
+    position: absolute;
+    color: #ffffff;
+    margin-top: 5020px;
+    margin-left: 150px;
+    z-index: 2;
+    text-shadow: 0px 3px 7px rgba(255, 255, 255, 0.6);
+}
+
+.contactDiv{
+    width: 100%;
+    height: 300px;
+    margin-top: 4950px;
+    margin-left: 0px;
+    position: absolute;
+    background-color: #4d4d4d;
+}
+
+.Name{
+    
+    margin: 20px;
+    width: 500px;
+    height: 20px;
+    color: #3d3d3d;
+    margin-left: 93px;
+    padding: 10px;
+    margin-top: -10px;
+    /* position: absolute; */
+    border: 0px;
+    border-radius: 10px;
+}
+.Name:hover{
+    background-color: #a3a3a3;
+    color: #fff;
+    border: 0px;
+    transition: 0.1s ease-in;
+}
+
+.Email{
+    
+    margin: 20px;
+    width: 500px;
+    padding: 10px;
+    height: 20px;
+    color: #3d3d3d;
+    margin-left: 100px;
+    
+    /* position: absolute; */
+    margin-top: 110px;
+    border: 0px;
+    border-radius: 10px;
+}
+
+.Email:hover{
+    background-color: #a3a3a3;
+    color: #fff;
+    border: 0px;
+    transition: 0.1s ease-in;
+}
+
+.Number{
+    
+    width: 500px;
+    height: 20px;
+    padding: 10px;
+    /* position: absolute; */
+    margin: 20px;
+    color: #3d3d3d;
+    margin-left: 70px;
+    
+    border: 0px;
+    margin-top: -20px;
+    border-radius: 10px;
+}
+
+.Number:hover{
+    background-color: #a3a3a3;
+    color: #fff;
+    border: 0px;
+    transition: 0.1s ease-in;
+}
+
+.InputFields{
+    position: relative;
+}
+
+.label1{
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 710px;
+}
+.label2{
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left:710px;
+    /* position: absolute; */
+    margin-top: 120px;
+}
+.label3{
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 710px;
+    /* position: absolute; */
+    margin-top: 190px;
+}
+
+.SubmitButton{
+    margin-top: 70px;
+    position: absolute;
+    margin-left: -400px;
+    width: 250px;
+    background-color: #18c690;
+    height: 40px;
+    color: #fff;
+    border: 0px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.SubmitButton:hover{
+    background-color: #209671;
+    transition: 0.1s ease-in;
+}

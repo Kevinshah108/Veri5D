@@ -1,0 +1,433 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #7fa1c3;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, sans-serif;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+
+
+.header{
+    width: 100vw;
+    height: 55px;
+    background-color: #fff;
+    position: fixed;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 2px 1px rgb(122, 122, 122);
+    margin-top: 0px;
+    z-index: 3;
+}
+
+/* .MenuLogo{
+    margin-left: 30px;
+    font-size: 30px;
+    padding: 3px;
+} */
+/* .MenuBarLink{
+    text-decoration: none;
+    color: #000000;
+} */
+
+.navBar{
+    width: 950px;
+    background-color: #ffffff;
+    height: 70px;
+    margin-left: 300px;
+    margin-top: 80px;
+    position: fixed;
+    z-index: 3;
+    border-radius: 50px;
+    background: transparent;
+    border: 5px solid white;
+}
+
+.nav-item.active {
+    color: #086784;
+    font-size: 21px;
+    text-decoration: 3px underline; /* Adds underline to the active item */
+    cursor: pointer;
+}
+
+
+.Home{
+    color: #303132;
+    margin-left: 830px;
+    margin-top: -30px;
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    /* border: 5px solid white; */
+}
+
+.Home:hover{
+    color: #086784;
+    font-size: 21px;
+    text-decoration: 3px underline;
+    transition: 0.1s ease-in;
+    cursor: pointer;
+}
+
+.About{
+    
+    color: #303132;
+    margin-left: 950px;
+    margin-top: -30px;
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    /* border: 5px solid white; */
+}
+
+.About:hover{
+    color: #086784;
+    font-size: 21px;
+    text-decoration: 3px underline;
+    transition: 0.1s ease-in;
+    cursor: pointer;
+}
+
+.Services{
+    
+    
+    color: #303132;
+    
+    
+    margin-left: 1065px;
+    margin-top: -30px;
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    
+    /* border: 5px solid white; */
+}
+
+.Services:hover{
+    color: #086784;
+    font-size: 21px;
+    text-decoration: 3px underline;
+    transition: 0.1s ease-in;
+    cursor: pointer;
+}
+
+.Clients{
+    
+    color: #303132;
+    margin-left: 1190px;
+    margin-top: -30px;
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    /* border: 5px solid white; */
+}
+
+.Clients:hover{
+    color: #086784;
+    font-size: 21px;
+    text-decoration: 3px underline;
+    transition: 0.1s ease-in;
+    cursor: pointer;
+}
+
+.Gallery{
+    
+    
+    color: #303132;
+    
+    margin-left: 1300px;
+    margin-top: -30px;
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    /* border: 5px solid white; */
+}
+
+.Gallery:hover{
+    color: #086784;
+    font-size: 21px;
+    text-decoration: 3px underline;
+    transition: 0.1s ease-in;
+    cursor: pointer;
+}
+
+.Contact{
+    
+    color: #303132;
+
+    margin-left: 1405px;
+    margin-top: -30px;
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    /* border: 5px solid white; */
+}
+
+.Contact:hover{
+    color: #086784;
+    font-size: 21px;
+    text-decoration: 3px underline;
+    transition: 0.1s ease-in;
+    cursor: pointer;
+}
+
+.Title{
+    margin-top: 170px;
+    margin-left: 43%;
+    color: #fff;
+    color: rgb(25, 95, 141);
+    text-shadow: 5px 3px 7px rgb(255, 255, 255);
+    font-size: 70px;
+    line-height: 25.6px;
+    text-decoration: none solid rgb(0, 0, 0);
+    word-spacing: 2px;
+    font-family: Jost, sans-serif;
+    position: absolute;
+    /* position: absolute; */
+}
+
+.TitleInfo{
+    margin-top: 260px;
+    margin-left: 21%;
+    /* font-size: 27px; */
+    color: #c53434;
+    text-shadow: 2px 3px 7px rgba(0, 0, 0, 0.6);
+    font-size: 60px;
+    line-height: 25.6px;
+    text-decoration: none solidrgb(51, 51, 51);
+    word-spacing: 2px;
+    font-family: Jost, sans-serif;
+    position: absolute;
+    /* position: absolute; */
+}
+
+.WebInfo{
+    margin-top: 320px;
+    margin-left: 35.5%;
+    /* font-size: 25px; */
+    color: #fff;
+    text-shadow: 2px 3px 7px rgba(0, 0, 0, 0.6);
+    font-size: 25px;
+    line-height: 25.6px;
+    text-decoration: none solidrgb(51, 51, 51);
+    word-spacing: 5px;
+    font-family: Jost, sans-serif;
+    position: absolute;
+    /* position: absolute; */
+}
+
+.WebsiteName{
+    display: flex;
+    width: 100px;
+    margin-top: 03px;
+    margin-left: 40px;
+    color: #086784;
+    position: relative;
+    cursor: pointer;
+}
+
+.BgImgDiv {
+    width: 100vw;
+    height: 1350px;
+    background-color: #fff;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 50px;
+    position: absolute;
+    z-index: 2;
+}
+
+.BgImg{
+    background-image: url("https://lh5.googleusercontent.com/XEQp6UARwuTgKaoP_uKjUKuBqLkkyzI_UYkWW4P9ZI2Cx1JOcWDmSBuUhPco-SybrYnqVuDfN2Tjc1zbTpR13k9k6ZLYvQEtKNpk6MNmNR4V8JEleU19g7NX-1h1PeVpMvU2b08vWfT0D3jDdw");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100vw;
+    background-position:  start;
+    overflow: clip;
+    width: 1530px;
+    max-width: 100%;
+    margin-right: -20px;
+    height: 550px;
+    margin-top: 0px;
+    margin-left: 0px;
+    opacity: 90%;
+    z-index: -1;
+    transition: max-width 0.3s ease-in-out;
+    display: block;
+    
+}
+
+
+.ExploreBtn{
+    color: #ffffff;
+    background-color: #2b7a69;
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    margin-left: 670px;
+    margin-top: 400px;
+    font-size: 20px;
+    font-family: Jost, sans-serif;
+}
+
+.ExploreBtn:hover{
+    color: #ffffff;
+    background-color: #236456;
+    font-size: 22px;
+    font-family: Jost, sans-serif;
+    transition: 0.1s ease-in-out;
+}
+
+.footer{
+    width: 100vw;
+    height: 100px;
+    background-color: #4d4d4d9c;
+    margin-top: 5250px;
+    position: absolute;
+    z-index: 4;
+}
+
+.FooterLogo{
+    margin-left: 85%;
+    margin-top: 20px;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.FooterMobile{
+    margin-left: 3%;
+    margin-top: -65px;
+    font-size: 15.5px;
+    color: #ffffff;
+}
+
+.FooterEmail{
+    margin-left: 17%;
+    margin-top: -20px;
+    font-size: 14.5px;
+    color: #ffffff;
+}
+
+.FooterAdress{
+    margin-left: 3%;
+    margin-top: 10px;
+    font-size: 15.5px;
+    color: #ffffff;
+}
+
+.FooterPara{
+    margin-left: 700px;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+span{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.VisionDiv{
+    width: 97%;
+    height: 330px;
+    padding-top: 20px;
+    background-color: #086784;
+    margin-top: 650px;
+    margin-left: 24px;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 2;
+}
+.VisionText{
+    width: 47%;
+    height: 330px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.VisionName{
+    color: #ffffff;
+    padding-top: 20px;
+    padding-left: 40%;
+    padding-bottom: 0px;
+    margin-left: -34.5%;
+}
+
+.VisionPara{
+    color: #ffffff;
+    padding: 40px;
+    font-size: 20px;
+    word-spacing: 07px;
+    margin-top: -20px;
+}
+
+.MissionDiv{
+    width: 97%;
+    height: 340px;
+    background-color: #086784;
+    margin-top: 1030px;
+    margin-left: 24px;
+    position: absolute;
+    z-index: 2;
+    border-radius: 10px;
+}
+.MissionText{
+    width: 47%;
+    height: 330px;
+    margin-top: 20px;
+    margin-left: 750px;
+}
+
+.MissionName{
+    color: #ffffff;
+    padding-top: 14px;
+    padding-left: 40%;
+    padding-bottom: 07px;
+    margin-left: -34.5%;
+}
+
+.MissionPara{
+    color: #ffffff;
+    padding: 20px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.VisionImg img{
+    z-index: 2;
+    display: flex;
+    width: 680px;
+    height: 300px;
+    margin-left: 770px;
+    margin-top: -335px;
+    border-radius: 10px;
+}
+
+
+.MissionImg img{
+    z-index: 2;
+    display: flex;
+    width: 680px;
+    height: 310px;
+    margin-left: 30px;
+    margin-top: -335px;
+    border-radius: 10px;
+}

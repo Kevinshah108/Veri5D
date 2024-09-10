@@ -1,0 +1,53 @@
+.sideBarDiv{
+    width: 300px;
+    height: 100%;
+    background-color: #086784;
+    position: fixed;
+    z-index: 3;
+    margin-top: 55px;
+    box-shadow: 0px 2px 5px 0px;
+}
+
+.panel1{
+    color: #3e3e3e;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 05px;
+}
+.panel2{
+    color: #3e3e3e;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 05px;
+}
+
+.panel1Div{
+    width: 85%;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 50px;
+    background-color: #ffffff;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.panel1Div:hover{
+    background-color: #d0d0d0;  
+}
+
+.panel2Div{
+    width: 85%;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 50px;
+    background-color: #ffffff;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.panel2Div:hover{
+    background-color: #d0d0d0;  
+}

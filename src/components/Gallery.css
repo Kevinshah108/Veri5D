@@ -1,0 +1,155 @@
+.ImageSlider{
+    margin-top: 3540px;
+    margin-left: -180px;
+    width: 500px;
+    height: 300px;
+    z-index: 2;
+    position: absolute;
+    border-radius: 20px;
+    padding-left: 200px;
+}
+
+.ProjectGalleryName{
+    margin-top: 3420px;
+    position: absolute;
+    margin-left: 650px;
+    z-index: 2;
+}
+
+.industrialSheds{
+    margin-top: 3490px;
+    position: absolute;
+    margin-left: 200px;
+    z-index: 2;
+    font-size: 20px;
+}
+
+.equipment{
+    margin-top: 3490px;
+    position: absolute;
+    margin-left: 630px;
+    z-index: 2;
+    font-size: 20px;
+}
+
+.ImageSlider1{
+    margin-top: 3540px;
+    margin-left: 320px;
+    z-index: 2;
+    position: absolute;
+    /* width: 900px;
+    height: 500px; */
+    border-radius: 20px;
+    padding-left: 200px;
+    /* background-color: #2b7a69; */
+}
+
+
+.silos{
+    margin-top: 3490px;
+    position: absolute;
+    margin-left: 1130px;
+    z-index: 2;
+    font-size: 20px;
+}
+
+.ImageSlider2{
+    margin-top: 3540px;
+    margin-left: 820px;
+    z-index: 2;
+    position: absolute;
+    /* width: 900px;
+    height: 500px; */
+    border-radius: 20px;
+    padding-left: 200px;
+    /* background-color: #2b7a69; */
+}
+
+
+.pipe{
+    margin-top: 3870px;
+    position: absolute;
+    margin-left: 230px;
+    z-index: 2;
+    font-size: 20px;
+}
+.ImageSlider3{
+    margin-top: 3920px;
+    margin-left: -180px;
+    z-index: 2;
+    position: absolute;
+    /* width: 900px;
+    height: 500px; */
+    border-radius: 20px;
+    padding-left: 200px;
+    /* background-color: #2b7a69; */
+}
+
+.storage{
+    margin-top: 3870px;
+    position: absolute;
+    margin-left: 670px;
+    z-index: 2;
+    font-size: 20px;
+}
+
+.ImageSlider4{
+    margin-top: 3920px;
+    margin-left: 320px;
+    z-index: 2;
+    position: absolute;
+    /* width: 900px;
+    height: 500px; */
+    border-radius: 20px;
+    padding-left: 200px;
+    /* background-color: #2b7a69; */
+}
+
+.vessel{
+    margin-top: 3870px;
+    position: absolute;
+    margin-left: 1190px;
+    z-index: 2;
+    font-size: 20px;
+}
+
+.ImageSlider5{
+    margin-top: 3920px;
+    margin-left: 820px;
+    z-index: 2;
+    position: absolute;
+    /* width: 900px;
+    height: 500px; */
+    border-radius: 20px;
+    padding-left: 200px;
+    /* background-color: #2b7a69; */
+}
+
+.projectHeadings{
+    margin-top: 4250px;
+    position: absolute;
+    margin-left: 730px;
+    z-index: 2;
+    font-size: 18px;
+}
+
+.completedProjects{
+    margin-top: 4275px;
+    position: absolute;
+    margin-left: 680px;
+    z-index: 2;
+    font-size: 23px;
+}
+
+.ImageSlider6{
+    margin-top: 4340px;
+    margin-left: 80px;
+    z-index: 2;
+    position: absolute;
+    /* width: 900px;
+    height: 500px; */
+    border-radius: 20px;
+    padding-left: 200px;
+    /* background-color: #2b7a69; */
+}
+

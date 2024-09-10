@@ -1,0 +1,38 @@
+.ServicesDiv{
+    width: 91%;
+    display: flex;
+    height: 350px;
+    margin-top: 1490px;
+    margin-left: 70px;
+    background-color: #374357;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.ServicesName{
+    color: #ffffff;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 35px;
+}
+
+.ServicesList{
+    /* display: flex; */
+    margin-top: 80px;
+    color: #ffffff;
+    /* flex-direction: column; */
+    margin-left: -80px;
+    font-size: 21px;
+}
+
+.SecondServicesList{
+    color: #ffffff;
+    margin-top: 35px;
+    margin-left: 200px;
+    font-size: 21px;
+}
+
+.SecondServicesList ol{
+    color: #ffffff;
+    font-size: 18px;
+}

@@ -1,0 +1,105 @@
+.clientsDiv{
+    width: 100%;
+    height: 1500px;
+    background-color: #e9f0fb;
+    margin-top: 1900px;
+    position: absolute;
+    z-index: 2;
+}
+
+
+
+.clientsImg{
+   width: 70%;
+   height: 500px;
+   margin-left: 240px;
+   margin-top: 40px;
+   border-radius: 50px;
+   /* box-shadow: 0px 0px 7px 2px rgb(70, 70, 70); */
+}
+
+.clientsName{
+    margin-top: 40px;
+    font-size: 50px;
+    font-family: Jost, sans-serif;
+    text-align: center;
+}
+
+.clientsList{
+    width: 40%;
+    height: 260px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    color: #000000;
+    font-weight: 600;
+    margin-left: 120px;
+    margin-top: 40px;
+    text-align: start;
+    padding-top: 10px;
+    padding-left: 20px;
+    box-shadow: 0px 3px 7px #373737c7;
+}
+
+.clientsList ul{
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+     padding: 03px;
+}
+
+.secondClientsList{
+    width: 40%;
+    height: 260px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    color: #000000;
+    margin-left: 800px;
+    margin-top: -270px;
+    text-align: start;
+    padding-top: 10px;
+    font-weight: 600;
+    padding-left: 20px;
+    box-shadow: 0px 3px 7px #373737c7;
+}
+.secondClientsList ul {
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+     padding: 03px;
+}
+
+.systmEngineers{
+    margin-top: 40px;
+    font-size: 50px;
+    font-family: Jost, sans-serif;
+    text-align: center;
+}
+
+.VadodaraProjects{
+    margin-top: 20px;
+    font-size: 27px;
+    font-family: Jost, sans-serif;
+    text-align: center;
+}
+
+.projectLists{
+    width: 470px;
+    height: 200px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    color: #000000;
+    font-weight: 600;
+    margin-left: 520px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: start;
+    padding-top: 20px;
+    padding-left: 20px;
+    box-shadow: 0px 5px 7px #373737c7;
+}
+
+
+.projectLists ul{
+     font-size: 23px;
+     font-family: Arial, Helvetica, sans-serif;
+     padding: 03px;
+    
+}
