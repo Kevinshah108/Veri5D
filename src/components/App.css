@@ -4,10 +4,10 @@
 }
 
 body{
-    background-color: #7fa1c3;
+    background-color: #a7b6ec;
     margin: 0;
     padding: 0;
-    font-family: system-ui, sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
@@ -19,9 +19,9 @@ body{
     height: 55px;
     background-color: #fff;
     position: fixed;
-    box-sizing: border-box;
-    box-shadow: 0px 0px 2px 1px rgb(122, 122, 122);
-    margin-top: 0px;
+    border: none;
+    /* box-shadow:  0px 0.3px 0.5px 0px rgba(186, 185, 185, 0.2), 0px 0.7px 2.7px 0px rgb(146, 146, 146); */
+    box-shadow: rgba(104, 104, 104, 0.019) 0px 1px 2px, rgba(0, 0, 0, 0.012) 0px 1px 1.3px;
     z-index: 3;
 }
 
@@ -71,7 +71,6 @@ body{
 .Home:hover{
     color: #086784;
     font-size: 21px;
-    text-decoration: 3px underline;
     transition: 0.1s ease-in;
     cursor: pointer;
 }
@@ -92,7 +91,6 @@ body{
 .About:hover{
     color: #086784;
     font-size: 21px;
-    text-decoration: 3px underline;
     transition: 0.1s ease-in;
     cursor: pointer;
 }
@@ -117,7 +115,6 @@ body{
 .Services:hover{
     color: #086784;
     font-size: 21px;
-    text-decoration: 3px underline;
     transition: 0.1s ease-in;
     cursor: pointer;
 }
@@ -138,7 +135,6 @@ body{
 .Clients:hover{
     color: #086784;
     font-size: 21px;
-    text-decoration: 3px underline;
     transition: 0.1s ease-in;
     cursor: pointer;
 }
@@ -161,7 +157,6 @@ body{
 .Gallery:hover{
     color: #086784;
     font-size: 21px;
-    text-decoration: 3px underline;
     transition: 0.1s ease-in;
     cursor: pointer;
 }
@@ -183,53 +178,53 @@ body{
 .Contact:hover{
     color: #086784;
     font-size: 21px;
-    text-decoration: 3px underline;
     transition: 0.1s ease-in;
     cursor: pointer;
 }
 
 .Title{
     margin-top: 170px;
-    margin-left: 43%;
-    color: #fff;
-    color: rgb(25, 95, 141);
-    text-shadow: 5px 3px 7px rgb(255, 255, 255);
+    margin-left: 5%;
+    color: #1f3a5f;
+    text-shadow: 2px 3px 7px rgb(255, 255, 255);
     font-size: 70px;
     line-height: 25.6px;
     text-decoration: none solid rgb(0, 0, 0);
     word-spacing: 2px;
-    font-family: Jost, sans-serif;
+    z-index: 3;
+    font-family: Kanit regular, sans-serif;
     position: absolute;
-    /* position: absolute; */
 }
 
 .TitleInfo{
     margin-top: 260px;
-    margin-left: 21%;
+    margin-left: 5%;
+    z-index: 3;
     /* font-size: 27px; */
-    color: #c53434;
+    color: #ffffff;
     text-shadow: 2px 3px 7px rgba(0, 0, 0, 0.6);
     font-size: 60px;
     line-height: 25.6px;
-    text-decoration: none solidrgb(51, 51, 51);
+    text-decoration: none solid rgb(51, 51, 51);
     word-spacing: 2px;
-    font-family: Jost, sans-serif;
+    font-family: Reddit Sans Condensed;
     position: absolute;
     /* position: absolute; */
 }
 
 .WebInfo{
     margin-top: 320px;
-    margin-left: 35.5%;
+    margin-left: 5%;
     /* font-size: 25px; */
     color: #fff;
     text-shadow: 2px 3px 7px rgba(0, 0, 0, 0.6);
     font-size: 25px;
     line-height: 25.6px;
-    text-decoration: none solidrgb(51, 51, 51);
-    word-spacing: 5px;
-    font-family: Jost, sans-serif;
+    text-decoration: none solid rgb(51, 51, 51);
+    word-spacing: 7px;
+    font-family: InriaSans;
     position: absolute;
+    z-index: 3;
     /* position: absolute; */
 }
 
@@ -245,20 +240,23 @@ body{
 
 .BgImgDiv {
     width: 100vw;
-    height: 1350px;
-    background-color: #fff;
+    /* height: 1350px; */
+    background-color: #ffffff;
     margin-left: 0px;
     margin-right: 0px;
     margin-top: 50px;
     position: absolute;
-    z-index: 2;
+    background-image: url("C:\Users\kevin\OneDrive\Desktop\New folder\Veri5D\src\assets\consultants.png");
+    /* transition: 0.3s ease-in-out; */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: 1;
+    background-size: 100vw;
 }
 
 .BgImg{
-    background-image: url("https://lh5.googleusercontent.com/XEQp6UARwuTgKaoP_uKjUKuBqLkkyzI_UYkWW4P9ZI2Cx1JOcWDmSBuUhPco-SybrYnqVuDfN2Tjc1zbTpR13k9k6ZLYvQEtKNpk6MNmNR4V8JEleU19g7NX-1h1PeVpMvU2b08vWfT0D3jDdw");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100vw;
+    background: #4c4c4c56;
+    backdrop-filter: blur(0.1px);
     background-position:  start;
     overflow: clip;
     width: 1530px;
@@ -267,10 +265,7 @@ body{
     height: 550px;
     margin-top: 0px;
     margin-left: 0px;
-    opacity: 90%;
     z-index: -1;
-    transition: max-width 0.3s ease-in-out;
-    display: block;
     
 }
 
@@ -278,11 +273,11 @@ body{
 .ExploreBtn{
     color: #ffffff;
     background-color: #2b7a69;
-    border: 1px solid white;
+    border: none;
     border-radius: 20px;
     width: 200px;
     height: 40px;
-    margin-left: 670px;
+    margin-left: 5%;
     margin-top: 400px;
     font-size: 20px;
     font-family: Jost, sans-serif;
@@ -292,15 +287,25 @@ body{
     color: #ffffff;
     background-color: #236456;
     font-size: 22px;
-    font-family: Jost, sans-serif;
+    font-family: Kanit, sans-serif;
     transition: 0.1s ease-in-out;
+}
+
+
+.ServiceDiv{
+    width: 100%;
+    height: 500px;
+    margin-top: 1420px;
+    z-index: 0;
+    position: absolute;
+    background-color: #4d648d;
 }
 
 .footer{
     width: 100vw;
     height: 100px;
     background-color: #4d4d4d9c;
-    margin-top: 5250px;
+    margin-top: 5350px;
     position: absolute;
     z-index: 4;
 }

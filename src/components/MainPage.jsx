@@ -106,6 +106,8 @@ function MainPage() {
           </div>
         </div>
 
+        <div className="ServiceDiv"></div>
+
         <div className="footer">
           <footer>
             <h1 className="FooterLogo">VERI5D</h1>
