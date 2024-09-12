@@ -246,7 +246,7 @@ body{
     margin-right: 0px;
     margin-top: 50px;
     position: absolute;
-    background-image: url("C:\Users\kevin\OneDrive\Desktop\New folder\Veri5D\src\assets\consultants.png");
+    background-image: url("/src/assets/consultants.png");
     /* transition: 0.3s ease-in-out; */
     background-repeat: no-repeat;
     background-attachment: fixed;
